@@ -17,7 +17,7 @@ function NavigationBar({mode,setMode}) {
           <InputBase sx={{color:'black'}} placeholder="Search..."/>
         </Search>
         {
-          mode === 'light' ? <LightMode onClick={() => setMode('dark')}/> : <ModeNight onClick={() => setMode('light')} />
+          mode === 'light' ? <ModeNight onClick={() => setMode('dark')}/> : <LightMode onClick={() => setMode('light')} />
         }
         <Icons>
           <Badge badgeContent={4} color="primary">
