@@ -11,7 +11,7 @@ const StyledCard = styled(Card)(({theme}) => ({
 }))
 function Posts(img) {
   return (
-    <StyledCard sx={{margin: 5,border:'0.3px solid #c4c4c4', boxShadow:'2px 2px 1px'}}>
+    <StyledCard sx={{margin: 5,border:'0.3px solid #c4c4c4', boxShadow:'1px 2px 1px'}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: '#0099DD' }} aria-label="recipe">

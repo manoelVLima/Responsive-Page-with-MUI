@@ -19,7 +19,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode}>
       <Box bgcolor={"background.default"} color={"text.primary"} >
-        <NavigationBar />
+        <NavigationBar setMode={setMode} mode={mode} />
         <Stack marginTop={7} direction="row" spacing={2} justifyContent="space-between">
           <Sidebar setMode={setMode} mode={mode} />
           <Feed />
