@@ -71,14 +71,6 @@ function Sidebar({mode, setMode}) {
               <ListItemText primary="Profile" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                <ModeNight />
-              </ListItemIcon>
-              <Switch onChange={(event) => setMode(mode === 'light' ? 'dark' : 'light')} />
-            </ListItemButton>
-          </ListItem>
         </List>
       </Box> 
     </Box>
