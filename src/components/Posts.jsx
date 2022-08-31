@@ -1,10 +1,18 @@
 import { Favorite, FavoriteBorder, MoreVert, Share } from '@mui/icons-material'
-import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
+import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, styled, Typography } from '@mui/material'
 import React from 'react'
-
+const StyledCard = styled(Card)(({theme}) => ({
+  margin: 5,
+  background:'orange',
+  [theme.breakpoints.down('sm')]: {
+    margin: 0,
+    marginRight: '18px',
+    marginTop: '20px',
+  }
+}))
 function Posts(img) {
   return (
-    <Card sx={{margin: 5}}>
+    <StyledCard sx={{margin: 5, bgcolor:'orange',}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: '#0099DD' }} aria-label="recipe">
@@ -38,7 +46,7 @@ function Posts(img) {
           <Share />
         </IconButton>
       </CardActions>
-    </Card>
+    </StyledCard>
   )
 }
 
