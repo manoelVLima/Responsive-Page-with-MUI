@@ -3,7 +3,6 @@ import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox
 import React from 'react'
 const StyledCard = styled(Card)(({theme}) => ({
   margin: 5,
-  background:'orange',
   [theme.breakpoints.down('sm')]: {
     margin: 0,
     marginRight: '18px',
@@ -12,7 +11,7 @@ const StyledCard = styled(Card)(({theme}) => ({
 }))
 function Posts(img) {
   return (
-    <StyledCard sx={{margin: 5, bgcolor:'orange',}}>
+    <StyledCard sx={{margin: 5,}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: '#0099DD' }} aria-label="recipe">

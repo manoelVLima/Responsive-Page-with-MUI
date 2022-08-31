@@ -27,7 +27,7 @@ function AddBtn() {
       aria-describedby="modal-modal-description"
     >
     <Box bgcolor={"background.default"} color={"text.primary"} width={600} height={350} p={3} borderRadius={5}>
-      <Typography variant="h6" color="gray" textAlign="center">
+      <Typography variant="h5" color="gray" textAlign="center">
         Create a new post
       </Typography>
       <UserBox>

@@ -1,4 +1,4 @@
-import { Accessibility, AccountCircle, AnalyticsRounded, Apps, Drafts, Home, Inbox, LocalGroceryStore, ModeNight } from '@mui/icons-material'
+import { Accessibility, AccountCircle, AnalyticsRounded, Apps, Drafts, Home, Inbox, LocalGroceryStore, ModeNight, Pets } from '@mui/icons-material'
 import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
 import React from 'react'
 

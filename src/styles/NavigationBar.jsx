@@ -4,7 +4,6 @@ export const StyledToolBar = styled(Toolbar)({
   display:'flex',
   justifyContent:'space-between',
 })
-
 export const Search = styled('div')(({theme}) => ({
   background: 'white',
   padding: '0 10px',
